@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T13:00:44.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="C5S3ZYwYGqkDwfPrjzC5" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T13:18:11.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="4oh9ietjQsJbx5JyOFm4" version="14.5.1" type="github">
   <diagram id="7p46W-EN9GYlPAzoYcba" name="Page-1">
     <mxGraphModel dx="844" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,20 +53,62 @@
             <mxPoint x="440" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sO5AbAzET7fi1nhG9wPH-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OfferCatalogue Table&lt;br&gt;ContactSync Table&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="225" width="160" height="70" as="geometry" />
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-16" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;OfferCatalogue Table&lt;br&gt;ContactSync Table&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="225" width="174" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sO5AbAzET7fi1nhG9wPH-21" value="Data sent to SIFT is backed up as .dsv files on GPFS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="160" width="150" height="60" as="geometry" />
+          <mxGeometry x="110" y="150" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sO5AbAzET7fi1nhG9wPH-22" value="&lt;font style=&quot;font-size: 24px&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="95" y="295" width="40" height="35" as="geometry" />
+          <mxGeometry x="90" y="295" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="sO5AbAzET7fi1nhG9wPH-23" value="&lt;font style=&quot;font-size: 24px&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="414" y="290" width="40" height="35" as="geometry" />
+          <mxGeometry x="400" y="290" width="57" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="sO5AbAzET7fi1nhG9wPH-24" value="&lt;font style=&quot;font-size: 24px&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="640" y="295" width="40" height="35" as="geometry" />
+          <mxGeometry x="640" y="295" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-25" value="&lt;span style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;offerCatalogue comparison between files and Table&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-26" value="&lt;span style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;contactsync comparison between files and Table&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;endWidth=15.294117647058824;endSize=3.2470588235294118;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="400" />
+              <mxPoint x="140" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;endWidth=15.294117647058824;endSize=3.8705882352941177;width=10.588235294117647;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="110" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="480" />
+              <mxPoint x="110" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-30" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;endWidth=19.723183391003463;endSize=3.611764705882353;width=8.23529411764706;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="70" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="520" />
+              <mxPoint x="70" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-31" value="&lt;span style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;UCG comparison between file and file&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="266" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-32" value="GPFS&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="10" y="247.5" width="40" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
