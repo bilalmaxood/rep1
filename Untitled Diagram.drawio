@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T07:42:11.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="14.5.1" etag="nYidmL8j_wyh83wssCfs" type="github"><diagram id="7p46W-EN9GYlPAzoYcba">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-22T11:30:42.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="c3wJ3d-f3wL1MsYQqVhB" version="14.5.1" type="github">
+  <diagram id="7p46W-EN9GYlPAzoYcba" name="Page-1">
+    <mxGraphModel dx="844" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-1" value="Pega&lt;br&gt;(UMB2BPRD)&lt;br&gt;Oracle DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-2" value="SIFT&lt;br&gt;(Oracle DB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sO5AbAzET7fi1nhG9wPH-1" target="sO5AbAzET7fi1nhG9wPH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sO5AbAzET7fi1nhG9wPH-2" target="sO5AbAzET7fi1nhG9wPH-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="150" as="sourcePoint" />
+            <mxPoint x="550" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-5" value="/streamslz/.../processed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startWidth=28;startSize=7.22;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sO5AbAzET7fi1nhG9wPH-5" target="sO5AbAzET7fi1nhG9wPH-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="310" as="sourcePoint" />
+            <mxPoint x="100" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-7" value="Compare these two" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="300" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO5AbAzET7fi1nhG9wPH-8" value="SIFT processes data and put it into files on GPFS&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
